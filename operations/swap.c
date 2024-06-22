@@ -6,11 +6,11 @@
 /*   By: tanselbayraktaroglu <tanselbayraktarogl    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/22 21:06:18 by tanselbayra       #+#    #+#             */
-/*   Updated: 2024/06/22 21:07:37 by tanselbayra      ###   ########.fr       */
+/*   Updated: 2024/06/22 21:16:20 by tanselbayra      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./push_swap.h"
+#include "../push_swap.h"
 
 static void	swap(t_stack_node **head) //Define a function that swaps the positions of the top node and second node of a stack
 {
