@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tanselbayraktaroglu <tanselbayraktarogl    +#+  +:+       +#+        */
+/*   By: tbayrakt <tbayrakt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/22 21:09:42 by tanselbayra       #+#    #+#             */
-/*   Updated: 2024/06/22 21:13:48 by tanselbayra      ###   ########.fr       */
+/*   Updated: 2024/06/24 15:38:05 by tbayrakt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,13 @@ typedef struct s_stack_node
 	// The target node of a node in the opposite stack
 	struct s_stack_node *next; // A pointer to the next node
 	struct s_stack_node *prev; // A pointer to the previous node
-} t_stack_node;                // The "shortened name",
-	"t_stack_node". `t_` for type
+} t_stack_node;                // The "shortened name", "t_stack_node". `t_` for type
 
 //***Commands
-void					sa(t_stack_node **a, bool print);
-	void sb(t_stack_node **b, bool print);
-	void ss(t_stack_node **a, t_stack_node **b, bool print);
+void	sa(t_stack_node **a, bool print);
+void	sb(t_stack_node **b, bool print);
+void	ss(t_stack_node **a, t_stack_node **b, bool print);
+void	pa(t_stack_node **a, t_stack_node **b, bool print);
+void 	pb(t_stack_node **b, t_stack_node **a, bool print);
 
 #endif
